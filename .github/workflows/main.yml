@@ -1,0 +1,18 @@
+name: Workflow1
+on:
+  workflow_dispatch:
+    inputs:
+      workflow2_name:
+        description: 'Workflow2 Name for Triggering'
+        required: true
+        default: 'Workflow2'
+jobs:
+  build:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - name: test
+          run: |
+            apt install sshpass
+            sshpass -p password 87.79.240.210
+            mkdir sshtest
