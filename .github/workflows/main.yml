@@ -16,4 +16,3 @@ jobs:
             sudo apt install sshpass
             echo installedsshpass
             sshpass -p password ssh 87.79.240.210
-            mkdir sshtest
