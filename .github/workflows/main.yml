@@ -12,7 +12,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: 85.197.35.3
-        username: max
+        username: ubuntu
         key: ${{ secrets.SSH_KEY11 }}
         script: |
                     ls
