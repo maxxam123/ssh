@@ -13,6 +13,6 @@ jobs:
       with:
         host: 85.197.35.3
         username: max
-        key: ${{ secrets.SSH_KEY }}
+        key: ${{ secrets.SSH_KEY2 }}
         script: |
-                    bash /home/max/update.sh
+                    bash ls
