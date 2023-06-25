@@ -15,4 +15,4 @@ jobs:
         username: ubuntu
         key: ${{ secrets.SSH_KEY11 }}
         script: |
-                    ls
+                    ls -la
