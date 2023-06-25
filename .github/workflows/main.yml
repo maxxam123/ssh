@@ -13,6 +13,6 @@ jobs:
       with:
         host: 85.197.35.3
         username: max
-        key: ${{ secrets.SSH_KEY00 }}
+        key: ${{ secrets.SSH_KEY11 }}
         script: |
                     ls
