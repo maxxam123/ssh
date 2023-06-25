@@ -15,4 +15,4 @@ jobs:
         username: max
         key: ${{ secrets.SSH_KEY2 }}
         script: |
-                    bash ls
+                    ls
